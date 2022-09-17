@@ -1,0 +1,12 @@
+import React from 'react'
+import styles from "./Header.module.css"
+
+const Header = () => {
+    return (
+        <header className={styles}>
+            <h1>React + TS todo</h1>
+        </header>
+    );
+}
+
+export default Header;
